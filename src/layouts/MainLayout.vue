@@ -30,7 +30,7 @@
       <el-header class="header-bar">
         <div class="header-title">iOS设备管理系统</div>
         <el-dropdown class="user-menu" @command="handleCommand">
-          <div class="user-info" @click="showUserProfile">
+          <div class="user-info">
             <el-avatar :size="32" src="https://cube.elemecdn.com/3/7c/3ea6beec64369c2642b92c6726f1epng.png"></el-avatar>
             <span class="username">{{ userInfo?.username || '管理员' }}</span>
             <i class="el-icon-arrow-down"></i>
