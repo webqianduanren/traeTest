@@ -1,0 +1,6 @@
+// iOS主题色配置
+$--color-primary: #007AFF;
+$--border-radius-base: 8px;
+$--font-path: '~element-ui/lib/theme-chalk/fonts';
+
+@import "~element-ui/packages/theme-chalk/src/index";
